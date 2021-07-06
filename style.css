@@ -24,6 +24,9 @@ p{
     padding-left: 5%;
     padding-right: 5%;
 }
+.half-width{
+    width: 100%;
+}
 #img1{
     width: 100%;
 }
@@ -37,9 +40,15 @@ p{
     display: flex;
     padding-bottom: 50px;
 }
-.mid{
+.mid-banner{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+}
+.last-banner{
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-position-y:bottom;
+
 }
 .third-para{
     padding: 0 25%;
@@ -49,18 +58,26 @@ p{
     margin-left: 2%;
     margin-right: 2%;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 10px 10px 40px gray;
 }
 .third-width img{
     width: 100%;
-    border-radius: 10px;
+
 }
-.follow{
-    width: 94.5%;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 40px gray;
+#chart{
+    color: chocolate;
+    text-align: left;
+    margin-top: -50px;
+    margin-left: -20px;
+}
+#chart-que{
+    color: indianred;
+    text-align: right;
+    margin-right: -110px;
+}
+#footer{
+    margin-top: -50px;
+    text-align: center;
+    background-color: black;
 }
